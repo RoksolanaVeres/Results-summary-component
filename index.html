@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Results Summary Component</title>
+  </head>
+  <body class="font-hankenGrotesk md:min-h-screen grid md:content-center">
+    <main
+      class="grid grid-cols-1 md:grid-cols-2 max-w-screen-md mx-auto shadow-2xl rounded-2xl"
+    >
+      <!-- result container -->
+      <div
+        class="bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue px-14 py-8 text-center h-fit rounded-b-3xl md:rounded-t-3xl md:h-full"
+      >
+        <h1 class="text-xl text-lightLavender pb-6 md:pb-7">Your Result</h1>
+        <!-- circle container -->
+        <div
+          class="h-36 w-36 bg-gradient-to-b from-violetBlue to-persianBlue rounded-full grid content-center mx-auto mb-7"
+        >
+          <p class="text-5xl text-white font-extrabold mb-4">76</p>
+          <p class="text-lightLavender">of 100</p>
+        </div>
+        <!-- other result info -->
+        <p class="text-2xl text-white mb-5">Great</p>
+        <p class="text-base text-lightLavender">
+          Your score is higher than 65% of the people who have taken these tests
+        </p>
+      </div>
+      <!-- summary container -->
+      <div class="p-7">
+        <h2 class="text-xl font-extrabold pb-7">Summary</h2>
+        <!-- summary grid container -->
+        <div class="grid gap-5 md:gap-3">
+          <!-- reaction card container -->
+          <div class="flex justify-between p-4 bg-lightRedOpaque rounded-xl">
+            <!-- reaction labels container -->
+            <div class="flex gap-4">
+              <img src="./assets/images/icon-reaction.svg" alt="" />
+              <h3 class="font-bold text-lightRed">Reaction</h3>
+            </div>
+            <!-- reaction figures container -->
+            <div class="">
+              <span class="font-extrabold">80</span>
+              <span class="text-gray">/ 100</span>
+            </div>
+          </div>
+
+          <!-- memory card container -->
+          <div
+            class="flex justify-between p-4 bg-orangeYellowOpaque rounded-xl"
+          >
+            <!-- memory labels container -->
+            <div class="flex gap-4">
+              <img src="./assets/images/icon-memory.svg" alt="" />
+              <h3 class="font-bold text-orangeYellow">Memory</h3>
+            </div>
+            <!-- memory figures container -->
+            <div class="">
+              <span class="font-extrabold">92</span>
+              <span class="text-gray">/ 100</span>
+            </div>
+          </div>
+
+          <!-- verbal card container -->
+          <div class="flex justify-between p-4 bg-greenTealOpaque rounded-xl">
+            <!-- verbal labels container -->
+            <div class="flex gap-4">
+              <img src="./assets/images/icon-verbal.svg" alt="" />
+              <h3 class="font-bold text-greenTeal">Verbal</h3>
+            </div>
+            <!-- verbal figures container -->
+            <div class="">
+              <span class="font-extrabold">61</span>
+              <span class="text-gray">/ 100</span>
+            </div>
+          </div>
+
+          <!-- visual card container -->
+          <div class="flex justify-between p-4 bg-cobaltBlueOpaque rounded-xl">
+            <!-- visual labels container -->
+            <div class="flex gap-4">
+              <img src="./assets/images/icon-visual.svg" alt="" />
+              <h3 class="font-bold text-cobaltBlue">Visual</h3>
+            </div>
+            <!-- visual figures container -->
+            <div class="">
+              <span class="font-extrabold">72</span>
+              <span class="text-gray">/ 100</span>
+            </div>
+          </div>
+          <!-- continue button -->
+          <button
+            class="text-white bg-darkGrayBlue py-5 mt-6 rounded-full cursor-pointer hover:bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
