@@ -33,8 +33,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/social-media-dashboard-built-with-tailwind-ZQNzbvkGmD)
+- [GitHub repo](https://github.com/RoksolanaVeres/Results-summary-component)
+- [Live Site](https://results-summary-component-khaki-gamma.vercel.app/)
 
 ## My process
 
